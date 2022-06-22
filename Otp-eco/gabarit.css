@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@font-face { font-family: 'Architects Daughter'; src: url("/vos-comptes/IPT/ressources/socle/font/ArchitectsDaughter.eot"); src: url("/vos-comptes/IPT/ressources/socle/font/ArchitectsDaughter.eot?#iefix") format("embedded-opentype"), url("/vos-comptes/IPT/ressources/socle/font/ArchitectsDaughter.woff") format("woff"), url("/vos-comptes/IPT/ressources/socle/font/ArchitectsDaughter.svg#abcd") format("svg"); }
+@font-face {
+    font-family: 'cdn-picto';
+    src: url('/vos-comptes/IPT/ressources/socle/font/cdn-picto.eot');
+    src: url('/vos-comptes/IPT/ressources/socle/font/cdn-picto.eot?#iefix') format('embedded-opentype'),
+    url('/vos-comptes/IPT/ressources/socle/font/cdn-picto.woff') format('woff'),
+    url('/vos-comptes/IPT/ressources/socle/font/cdn-picto.ttf') format('truetype'),
+    url('/vos-comptes/IPT/ressources/socle/font/cdn-picto.svg#cdn-picto') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadPro-Cond';
+    src: url('/vos-comptes/IPT/ressources/socle/font/MyriadPro-Cond.eot?#iefix') format('embedded-opentype'),
+    url('/vos-comptes/IPT/ressources/socle/font/MyriadPro-Cond.woff') format('woff'),
+    url('/vos-comptes/IPT/ressources/socle/font/MyriadPro-Cond.ttf')  format('truetype'),
+    url('/vos-comptes/IPT/ressources/socle/font/MyriadPro-Cond.svg#MyriadPro-Cond') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.gabaritEntete { position: relative; }
+
+.gabaritEnteteImage { position: absolute; z-index: 1; }
+
+.gabaritEnteteTitre { position: absolute; top: 40px; left: 20px; z-index: 2; background: #3984B3; max-width: 741px; filter: alpha(opacity=90); /* ie 8 et 7 */ opacity: 0.9; }
+
+.gabaritEnteteTitreContenu { margin-top: 20px; margin-bottom: 15px; margin-left: 15px; margin-right: 15px; font-family: Helvetica Neue, Arial; font-size: 25px !important; color: #FFFFFF; }
+
+.gabaritEnteteAccroche { position: absolute; left: 20px; z-index: 2; background: #FFFFFF; max-width: 741px; filter: alpha(opacity=80); /* ie 8 */ opacity: 0.8; }
+
+.gabaritEnteteAccrocheContenu { margin-top: 20px; margin-bottom: 15px; margin-left: 15px; margin-right: 15px; font-family: Helvetica Neue, Arial; font-size: 16px !important; color: #3984B3; font-weight: bold; }
+
+#boutonCssHub { font-family: Helvetica Neue, Arial; font-weight: bold; font-size: 12px; color: #FFFFFF; background-color: #3984b3; text-align: center; line-height: 20px; padding-top: 10px; /*permet le centrage vertical*/ padding-bottom: 10px; border-radius: 3px; }
+
+#boutonCssHub:hover { color: #FFFFFF; background: #2f719a; }
+
+.titre_gabarit { font-family: Architects Daughter, Verdana; font-size: 24px !important; margin-bottom: 10px; color: #333333; margin-top: 3px; }
+
+.bref_corps { font-family: Helvetica Neue, Arial; font-size: 14px !important; color: #333333; width: 95%; }
+
+.detail_corps { font-family: Helvetica Neue, Arial; font-size: 14px !important; }
+
+.disclaimer_corps { font-family: Helvetica Neue, Arial; font-size: 10px !important; color: #999999; }
+
+.titre_paragrpahe_gabarit { color: #3984b3; font-family: Helvetica Neue, Arial; font-weight: bold; font-size: 16px; margin-top: 10px; margin-bottom: 10px; }
+
+.hr_titre { height: 2px; background-color: #4998D0; color: #4998D0; width: 40px; margin-bottom: 10px; }
+
+.item_hub { border: 1px solid #c9c9c9; margin-top: 7px; background: #ffffff; border-spacing: 0px; width: 368px; border-radius: 8px; }
+
+.hub_pave { padding: 0 0 0 0; width: 100%; }
+
+.img_item_hub { width: 100%; height: 126px; }
+
+.item_hub_rebond { width: 100%; }
+
+.titre_hub { font-family: Helvetica Neue, Arial; font-size: 16px !important; color: #333333; margin-top: 10px; margin-bottom: 10px; text-transform: uppercase; padding-left: 15px; text-align: left; }
+
+.desc_hub { font-family: Helvetica Neue, Arial; font-size: 14px; margin-bottom: 10px; padding-left: 15px; padding-right: 15px; color: #999999; text-align: justify; }
+
+.hr_item_hub { margin-left: 15px; margin-right: 15px; margin-top: 15px; }
+
+.hub_rebond_titre { font-family: Architects Daughter, Verdana; font-size: 16px !important; color: #333333; margin-left: 7px; padding: 6px; }
+
+.hub_rebond_libelle { font-family: Helvetica Neue, Arial; font-size: 12px; color: #3984B3; margin-right: 15px; padding: 5px; text-align: right; text-decoration: underline; }
+
+.actions_Hub_MomentVie { width: 100%; background: #F2F2F2; border-radius: 0px 0px 8px 8px; }
+
+.actions_Hub_MomentVie_td_1 { width: 50%; padding-right: 5px; padding-left: 15px; padding-top: 7px; padding-bottom: 7px; }
+
+.actions_Hub_MomentVie_td_2 { width: 50%; padding-right: 15px; padding-left: 5px; padding-top: 7px; padding-bottom: 7px; }
+
+.gabarit_produit_enbref { color: #f2f2f2; background-color: #f2f2f2; padding: 15px 5px 15px 5px; border-radius: 5px; }
+
+.taille_img_rebond { width: 225px; height: 101px; }
+
+.gabarit_produit_enbref-bloc-produit .bloc { width: 225px; height: 143px; display: inline-block; *display: inline; zoom: 1; text-align: center; margin-right: 15px; border-bottom: 2px solid #e6e6e6; cursor: pointer; position: relative; }
+
+.gabarit_produit_enbref-bloc-produit .bloc:hover { border-bottom: 2px solid #3984b3; color: #3984b3; -webkit-transition: border-bottom .5s; transition: border-bottom .5s; }
+
+.gabarit_produit_enbref-bloc-produit .bloc a { color: #000; text-decoration: none; font-size: 14px; }
+
+.gabarit_produit_enbref-bloc-produit .bloc:hover a { color: #3984b3; }
+
+.gabarit_produit_enbref-bloc-produit .bloc:hover img { filter: alpha(opacity=50); /* ie 8 et 7 */ opacity: 0.5; -webkit-transition: opacity .5s; transition: opacity .5s; display: block\\9; }
+
+.overlay { background-color: #36749b; margin-bottom: 15px; }
+
+.gabarit_produit_enbref-bloc-produit .bloc:last-child { margin-right: 0px; }
+
+.loupe { display: block\\9; background: url(../img/divers/loupe.png) 0px 0px; position: absolute; top: 40px; left: 100px; width: 29px; height: 30px; opacity: 0; filter: alpha(opacity=0); /* ie 8 et 7 */ display: none\\9; }
+
+.gabarit_produit_enbref-bloc-produit .bloc:hover .loupe { filter: alpha(opacity=100); /* ie 8 et 7 */ opacity: 1; -webkit-transition: opacity .5s; transition: opacity .5s; display: block\\9; }
+
+td.actions_Hub_MomentVie_td_1 { vertical-align: middle; }
+
+td.actions_Hub_MomentVie_td_2 { vertical-align: middle; }
+
+td.gabarit_produit_enbref { vertical-align: middle; }
+
+/* Hack CSS IE7 : Résolution du problème d’affichage sur les nouveaux gabarits rencontrés sur Internet Explorer 7 */
+* + html #gabarit_produit_enbref { margin-top: 200px; }
+
+* + html #gabarit_hub_pavesMomentVie { margin-top: 220px; }

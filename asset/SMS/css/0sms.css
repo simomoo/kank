@@ -1,0 +1,374 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#FlexContainer1
+{
+   display: -webkit-flex;
+   display: flex;
+   position: relative;
+   padding: 10px 10px 10px 10px;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   font-size: 0px;
+}
+
+#wb_Image1
+{
+   margin: 0;
+   vertical-align: top;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   padding: 0;
+   display: inline-block;
+   width: 143px;
+   height: auto;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#wb_Image2
+{
+   margin: 0;
+   vertical-align: top;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Image2
+{
+   border: 0px solid #000000;
+   padding: 0;
+   display: inline-block;
+   width: 47px;
+   height: auto;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text3 div
+{
+   text-align: left;
+}
+#FlexContainer2
+{
+   display: -webkit-flex;
+   display: flex;
+   position: relative;
+   padding: 10px 10px 10px 10px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+   margin: 0;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-align-self: auto;
+   align-self: auto;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: none;
+   border: 1px solid #CCCCCC;
+   box-sizing: border-box;
+   font-size: 0px;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text5 div
+{
+   text-align: center;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text2 div
+{
+   text-align: center;
+}
+#Editbox1
+{
+   border: 1px solid #CCCCCC;
+
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 15px;
+   box-sizing: border-box;
+   line-height: 34px;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-align-self: auto;
+   align-self: auto;
+   text-align: center;
+}
+#Button1
+{
+   border: 0px solid #000000;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url(../images/XMO.gif);
+   background-repeat: no-repeat;
+   background-position: center center;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-align-self: auto;
+   align-self: auto;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text4 div
+{
+   text-align: center;
+}
+#Button2
+{
+   border: 0px solid #000000;
+   background-clip: padding-box;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #17479E;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-align-self: auto;
+   align-self: auto;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Toast1 
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #C0C0C0;
+   border-radius: 4px;
+   text-align: center;
+   box-shadow: 0px 4px 15px rgba(0,0,0,0.13);
+}
+#Toast1
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#toasts
+{
+   left: 0;
+   pointer-events: none;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 999999;
+}
+.toast *
+{
+   box-sizing: border-box;
+}
+.toast.showing 
+{
+   opacity: 1;
+}
+.toast
+{
+   background-clip: padding-box;
+   margin-left: auto;
+   margin-right: auto;
+   opacity: 0;
+   overflow: hidden;
+   pointer-events: auto;
+   transition: opacity .15s linear;
+}
+.toast.show
+{
+   display: block;
+   opacity: 1;
+}
+.toast.hide
+{
+   display: none;
+}
+.toast strong
+{
+   font-weight: bolder;
+   margin-right: auto;
+}
+.toast small
+{
+   font-size: 80%;
+   font-weight: 400;
+}
+.toast .close
+{
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   background-color: transparent;
+   border: 0;
+   color: #C0C0C0;
+   cursor: pointer;
+   float: right;
+   font-size: 150%;
+   font-weight: 700;
+   line-height: 1;
+   margin-left: 0.5rem;
+   opacity: 0.5;
+   padding: 0;
+   text-shadow: 0px 1px 0px #fff;
+}
+.toast p, .toast ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Toast1
+{
+   margin-bottom: 12px !important;
+   text-align: center;
+   width: 276px;
+}
+#Toast1 .toast-header
+{
+   align-items: center;
+   background-clip: padding-box;
+   background-color: rgba(255,255,255,0.50);
+   border-bottom: 1px solid rgba(0,0,0,0.06);
+   color: #000000;
+   display: flex;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   padding: 10px 12px 10px 12px;
+}
+#Toast1 .toast-body
+{
+   padding: 10px 10px 10px 10px;
+}
+#Toast1 i
+{
+   color: #007AFF;
+   font-size: 13px;
+   margin-right: 10px;
+   width: 13px;
+}

